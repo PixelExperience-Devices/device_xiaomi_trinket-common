@@ -3116,8 +3116,13 @@ case "$target" in
 
             # schedtune settings
             echo 1 > /dev/stune/foreground/schedtune.prefer_idle
-            echo 10 > /dev/stune/top-app/schedtune.boost
+            echo 5 > /dev/stune/top-app/schedtune.boost
             echo 1 > /dev/stune/top-app/schedtune.prefer_idle
+
+            # Configure dynamic stune boost
+            echo 15 > /sys/module/cpu_boost/parameters/dynamic_stune_boost
+            echo 1000 > /sys/module/cpu_boost/parameters/dynamic_stune_boost_ms
+            echo 15 > /dev/stune/top-app/schedtune.sched_boost
 
             # configure governor settings for little cluster
             echo "schedutil" > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
