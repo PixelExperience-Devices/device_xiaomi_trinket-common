@@ -12,6 +12,12 @@ $(call inherit-product, vendor/xiaomi/trinket-common/trinket-common-vendor.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/google/interfaces \
+    hardware/google/pixel
+
 # AID/fs configs
 PRODUCT_PACKAGES += \
     fs_config_files
@@ -299,7 +305,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
+     android.hardware.power-service.xiaomi_trinket-libperfmgr
 
 # Public Libraries
 PRODUCT_COPY_FILES += \
