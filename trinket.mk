@@ -213,6 +213,7 @@ PRODUCT_PACKAGES += \
     libOmxG711Enc \
     libplatformconfig \
     libstagefrighthw \
+    libavservices_minijail_32 \
     libavservices_minijail_vendor \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
