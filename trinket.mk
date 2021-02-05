@@ -396,6 +396,10 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
+# Thermal
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0-service.qti
+
 # Touchscreen
 PRODUCT_PACKAGES += \
     libtinyxml2
