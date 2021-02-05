@@ -215,6 +215,7 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libavservices_minijail_32 \
     libavservices_minijail_vendor \
+    libavservices_minijail.vendor \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
 PRODUCT_COPY_FILES += \
