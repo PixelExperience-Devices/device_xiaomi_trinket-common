@@ -218,7 +218,6 @@ PRODUCT_PACKAGES += \
     libstagefrighthw \
     libavservices_minijail_32 \
     libavservices_minijail_vendor \
-    libavservices_minijail.vendor \
     vendor.qti.hardware.capabilityconfigstore@1.0.vendor
 
 PRODUCT_COPY_FILES += \
@@ -323,6 +322,7 @@ PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # QTI Components
 TARGET_COMMON_QTI_COMPONENTS += \
+    av \
     bt
 
 -include device/qcom/common/common.mk
