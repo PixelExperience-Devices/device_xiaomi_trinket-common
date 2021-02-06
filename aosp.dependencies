@@ -1,5 +1,17 @@
 [
   {
+    "repository": "device_qcom_common",
+    "target_path": "device/qcom/common",
+    "branch": "eleven",
+    "remote": "pixel-devices"
+  },
+  {
+    "repository": "vendor_qcom_common",
+    "target_path": "vendor/qcom/common",
+    "branch": "eleven",
+    "remote": "pixel-devices-blobs"
+  },
+  {
     "repository": "vendor_xiaomi_trinket-common",
     "target_path": "vendor/xiaomi/trinket-common",
     "branch": "eleven",
