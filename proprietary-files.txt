@@ -692,10 +692,6 @@ vendor/lib64/vendor.qti.imsrtpservice@2.0.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@2.1.so
 
-# Servicetracker - from LA.UM.9.11.r1-02100-NICOBAR.0
-vendor/bin/hw/vendor.qti.hardware.servicetracker@1.2-service|7d2044589d88756d503408c9f5dce6e02ac9ae77
-vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so|7ad23c607760b9931586b1144e9d105e5dd449db
-
 # Snapdragon Computer Vision Engine (SCVE)
 product/lib/vendor.qti.hardware.scve.objecttracker@1.0.so
 product/lib/vendor.qti.hardware.scve.objecttracker@1.0-adapter-helper.so
